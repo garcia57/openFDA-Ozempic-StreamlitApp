@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # Load datasets
 # Assuming the two datasets are already available as ozempic_data and ozempic_reviews_data
-ozempic_data_path = '/mnt/data/Ozempic_openFDA_Data.csv'
+ozempic_data_path = 'Ozempic_openFDA_Data.csv'
 ozempic_reviews_data_path = '/mnt/data/Ozempic_Reviews_Drugs.csv'
 
 ozempic_data = pd.read_csv(ozempic_data_path)
